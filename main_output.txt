@@ -67,6 +67,12 @@ id 13: Manufacturer4, 410$, Desktop, Blue
 id 14: Manufacturer5, 41$, Wireless, Silver, Mouse with dpi : 250
 
 There are 3 branches in Main Office: 
+Jerusalem : Item count: 3, Total Value: 216
+Printing KSF Branch in Jerusalem
+There are 3 items in the catalog: 
+id 8: Manufacturer3, 21$, Wireless, Silver, Mouse with dpi : 150
+id 9: Manufacturer3, 45$, Wired, Gold, Keyboard with 22 keys
+id 19: Manufacturer007, 150$, Cream, CPU, Tablet with screen size: 14
 Haifa : Item count: 6, Total Value: 422
 Printing KSF Branch in Haifa
 There are 6 items in the catalog: 
@@ -76,12 +82,6 @@ id 3: Manufacturer1, 5$, Wired, Gold, Keyboard with 20 keys
 id 10: Manufacturer3, 310$, Laptop, Red
 id 11: Manufacturer4, 31$, Wired, Green, Mouse with dpi : 200
 id 12: Manufacturer4, 65$, Wireless, Orange, Keyboard with 23 keys
-Jerusalem : Item count: 3, Total Value: 216
-Printing KSF Branch in Jerusalem
-There are 3 items in the catalog: 
-id 8: Manufacturer3, 21$, Wireless, Silver, Mouse with dpi : 150
-id 9: Manufacturer3, 45$, Wired, Gold, Keyboard with 22 keys
-id 19: Manufacturer007, 150$, Cream, CPU, Tablet with screen size: 14
 Tel-Aviv : Item count: 5, Total Value: 597
 Printing KSF Branch in Tel-Aviv
 There are 5 items in the catalog: 
@@ -91,10 +91,11 @@ id 6: Manufacturer2, 25$, Wireless, Orange, Keyboard with 21 keys
 id 13: Manufacturer4, 410$, Desktop, Blue
 id 14: Manufacturer5, 41$, Wireless, Silver, Mouse with dpi : 250
 
-try-catch block #16
-Trying to remove a branch with a non existing location
+Throwing away an item
+Throwing away an item
+Throwing away an item
 
-There are 3 branches in Main Office: 
+There are 2 branches in Main Office: 
 Haifa : Item count: 6, Total Value: 422
 Printing KSF Branch in Haifa
 There are 6 items in the catalog: 
@@ -104,12 +105,6 @@ id 3: Manufacturer1, 5$, Wired, Gold, Keyboard with 20 keys
 id 10: Manufacturer3, 310$, Laptop, Red
 id 11: Manufacturer4, 31$, Wired, Green, Mouse with dpi : 200
 id 12: Manufacturer4, 65$, Wireless, Orange, Keyboard with 23 keys
-Jerusalem : Item count: 3, Total Value: 216
-Printing KSF Branch in Jerusalem
-There are 3 items in the catalog: 
-id 8: Manufacturer3, 21$, Wireless, Silver, Mouse with dpi : 150
-id 9: Manufacturer3, 45$, Wired, Gold, Keyboard with 22 keys
-id 19: Manufacturer007, 150$, Cream, CPU, Tablet with screen size: 14
 Tel-Aviv : Item count: 5, Total Value: 597
 Printing KSF Branch in Tel-Aviv
 There are 5 items in the catalog: 
@@ -125,9 +120,6 @@ Throwing away an item
 
 #####End of main#####
 
-Throwing away an item
-Throwing away an item
-Throwing away an item
 Throwing away an item
 Throwing away an item
 Throwing away an item

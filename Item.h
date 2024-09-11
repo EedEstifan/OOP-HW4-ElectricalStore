@@ -16,7 +16,7 @@ class Item {
 public:
     static bool itemPtrCompare(Item* item1, Item* item2);
 
-    Item(int price = 0,const std::string& manufacturer = "~");
+    Item(int price ,const std::string& manufacturer );
     virtual ~Item();
 
     int getPrice()const;
@@ -25,7 +25,6 @@ public:
     std::string getManufacturer()const;
     void setManufacturer(const std::string& manufacturer);
 
-    virtual operator std::string()const = 0;
-    bool operator==(const Item& other)const;
+    virtual operator std::string()const;
 };
 
