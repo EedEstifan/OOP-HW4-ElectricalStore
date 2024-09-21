@@ -9,6 +9,8 @@
 #include "MainOffice.h"
 #include <string>
 #include "HWExceptions.h"
+
+
 // some include may be redundent
 
 #define TEST_MAIN_SIZE 6
@@ -27,9 +29,9 @@ void print_branch_catalog(const Branch& branch)
 
 int main()
 {
+
 	freopen("main_output.txt", "w", stdout);
 
-	Item i();
 
 	MainOffice& mo = MainOffice::getInstance();
 	try

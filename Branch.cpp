@@ -60,3 +60,8 @@ Branch::~Branch() {
 int Branch::getTotalValue() const {
     return totalValue;
 }
+
+void Branch::printBranch(void(*printFunc)(const Branch&))const {
+    std::cout << location << " : Item count: "<< catalog.size()<< ", Total Value: "<< totalValue << std::endl;
+    printFunc(*this);
+}

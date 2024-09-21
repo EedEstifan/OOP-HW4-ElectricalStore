@@ -22,6 +22,7 @@ public:
     bool getIsALaptop() const;
     void setCpu(const std::string& cpu);
     void setIsALaptop(bool isALaptop);
+    int getNumOfPorts()const;
 
     operator std::string()const;
 

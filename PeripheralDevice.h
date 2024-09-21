@@ -13,14 +13,16 @@ class PeripheralDevice :public virtual Item {
 public:
     PeripheralDevice(int price, const std::string& manufacturer, const std::string& color, bool isWirless);
     virtual ~PeripheralDevice();
+
     virtual void connect(Computer& computer) ;
     void disconnect();
 
-    virtual operator std::string() const=0;
+    virtual operator std::string() const;
 
     void setColor(const std::string& color);
     void setIsWirless(bool isWirless);
     std::string getColor()const;
     bool getIsWirless()const;
+
 };
 

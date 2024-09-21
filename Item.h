@@ -15,6 +15,7 @@ class Item {
 
 public:
     static bool itemPtrCompare(Item* item1, Item* item2);
+    //static bool itemComparator(Item* item1, Item* item2);
 
     Item(int price ,const std::string& manufacturer );
     virtual ~Item();

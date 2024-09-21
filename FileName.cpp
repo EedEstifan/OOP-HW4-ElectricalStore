@@ -12,12 +12,12 @@
 //#include <string>
 //#include "HWExceptions.h"
 //#include <chrono>
-//// not all includes are a "must"
-//// This define is used for Run-time calculation
+// not all includes are a "must"
+// This define is used for Run-time calculation
 //#define TIME_THIS(x) timer.restart(); x; total_counter += timer.check()
-//// This define enables one-time print to console even if freopen is redirecting output to file
+// This define enables one-time print to console even if freopen is redirecting output to file
 //#define STDCOUT(x) fclose(fp); fp = freopen("CON", "w", stdout); std::cout << x << std::endl; fclose(fp); fp = freopen("benchmark_test.txt", "a", stdout);
-//// This defines are realted to testing constants
+// This defines are realted to testing constants
 //#define RATE 1
 //#define TEST_COUNT 10
 //#define ITEMS_COUNT 3000
@@ -90,7 +90,7 @@
 //	{
 //		std::cout << "Don't forget to #DEFINE you id in Item.h!" << std::endl;
 //	}
-//	// Uncommenting this line will result in a lot of prints, the output itself is meaningless
+//	 Uncommenting this line will result in a lot of prints, the output itself is meaningless
 //	FILE* fp = freopen("benchmark_test.txt", "w", stdout);
 //	long long time_counter_sum = 0;
 //	long long max_count = -1;
@@ -184,8 +184,7 @@
 //		for (int c = 0; c < CONNECTING_COUNT; c++)
 //		{
 //			PeripheralDevice* pdArray[PERIPHERALS];
-//			Computer* computer = new Computer(0, "", "", false,
-//				PERIPHERALS);
+//			Computer* computer = new Computer(0, "", "", false,PERIPHERALS);
 //			peripheralConnector<PERIPHERALS>(*computer,
 //				pdArray, timer, total_counter);
 //			
@@ -195,15 +194,19 @@
 //			}
 //			
 //			TIME_THIS(delete computer);
-//
+//			
 //			for (int pi = 0; pi < PERIPHERALS; pi++) {
-//				delete pdArray[pi];
-//				//STDCOUT("befor");
-//				//try{ delete pdArray[pi]; }catch(char* s){ STDCOUT(s); }
-//				//STDCOUT("after");
+//				try {
+//					delete pdArray[pi];
+//				}
+//				catch (Computer* c) {
+//					STDCOUT("c");
+//					STDCOUT(c);
+//				}
+//				
 //			}
 //				
-//				//try 
+//			
 //				
 //			computer = new Computer(0, "", "", false, PERIPHERALS);
 //			peripheralConnector<PERIPHERALS>(*computer, pdArray,

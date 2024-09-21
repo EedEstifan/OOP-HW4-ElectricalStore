@@ -31,12 +31,9 @@ private:
     MainOffice(const MainOffice& other);
     void operator=(const MainOffice& other) {}
 
-    static bool compareBranchesByValue(const std::pair<std::string, Branch>& a, const std::pair<std::string, Branch>& b);
-    static bool compareBranchesAlphabetically(const std::pair<std::string, Branch>& a, const std::pair<std::string, Branch>& b);
+    static bool compareBranchesByValue(const Branch* a, const Branch* b);
 
-
-
-
+    void printBranches(void (*printFunc)(const Branch&), bool byValue=false)const;
 public:
     // Public method to get the singleton instance
     static MainOffice& getInstance();

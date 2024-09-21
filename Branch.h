@@ -54,4 +54,6 @@ public:
         return maxItem;
     }
 
+    void printBranch(void(*printFunc)(const Branch&))const;
+
 };
